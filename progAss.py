@@ -1,3 +1,7 @@
+#Mark Joshua B. Burgos
+#AB-7L
+#2013-09836
+
 '''
 	This function accepts 2 string and compare each character in the first string
 	to the character in the second string with same index. A counter is initialized
