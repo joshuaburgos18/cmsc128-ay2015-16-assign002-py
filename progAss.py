@@ -50,6 +50,10 @@ def countSubstrPattern(original, pattern):
 '''
 
 def isValidString(str, alphabet):
+	for letter in alphabet:
+	    if alphabet.count(letter) > 1:
+	        return False
+	        
 	for letter in str:
 		if alphabet.find(letter, 0) < 0:
 			return False
